@@ -1,5 +1,4 @@
 #skyPi
-============================================
 
 skyPi allows a Raspberry Pi to send low-resolution images over SSTV from a
 high-altitude balloon (or, optionally, the ground), while storing
