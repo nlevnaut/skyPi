@@ -35,6 +35,9 @@ radio, laptop, garbage disposal, etc).
 Boot RPi. It will periodically transmit SSTV images as audio over the 3.5mm
 output. Default SSTV format is MartinM2. Many are supported.
 
+1920x1080 jpeg images are saved in `skyPi/run/`, with a folder created for each time the `beacon.sh`
+script is run, typically once per boot.
+
 Credit
 ------
 
