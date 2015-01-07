@@ -8,7 +8,8 @@ Installation
 ------------
 
 Dependencies:
-pySSTV
+pySSTV (install via pip)
+Python Imaging Library (PIL)
 
 Compile `gen_values.c` to `gen_values` in the `skyPi` folder.
 
@@ -20,6 +21,8 @@ Add `@reboot python /home/pi/skyPi/shutdown.py` to `root`'s crontab
 to be able to safely shutdown the RPi by pulling GPIO pin 17 low. The RPi
 is doing a lot of disk writes for the images, so unplugging it without shutting
 down properly will probably result in unhappiness.
+
+Python Imaging Library (PIL) is used to overlay the callsign. Put your callsign in beacon.py.
 
 Usage
 -----
