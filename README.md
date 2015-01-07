@@ -4,12 +4,15 @@ skyPi allows a Raspberry Pi to send low-resolution images over SSTV from a
 high-altitude balloon (or, optionally, the ground), while storing
 high-resolution images locally.
 
-Installation
+Raspbian Installation
 ------------
+First, install `pip`:
+`apt-get install python-pip`
 
 Dependencies:
-pySSTV (install via pip)
-Python Imaging Library (PIL)
+`pySSTV` (install via pip)
+
+Python Imaging Library (install via pip)
 
 Compile `gen_values.c` to `gen_values` in the `skyPi` folder.
 
